@@ -1,4 +1,4 @@
-const getPlanet = require('../function/planet');
+const { getPlanet } = require('../function/planet');
 
 module.exports = (req, res) => {
   const value = getPlanet();
